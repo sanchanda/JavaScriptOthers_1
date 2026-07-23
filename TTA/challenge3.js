@@ -9,16 +9,12 @@ function classifyJsBasicsScore(score) {
     switch (true) {
         case score >= 90:
             return "EXCELLENT";
-            break
         case score >= 75:
             return "GOOD";
-            break;
         case score >= 50:
             return "NEEDS_PRACTICE";
-            break;
         case score < 50:
             return "REVISIT";
-            break;
         default:
             return "PLEASE ENTER VALID SCORE";
     }
