@@ -1,3 +1,6 @@
+//JavaScript Coding Test Part 1 - Basics, Setup, Identifiers & Literals - 15 Coding Questions
+//https://app.thetestingacademy.com/student/live-test/javascript-coding-part-1/session
+
 //Input: normalizeJsBasicsLabel(" Login Button ")
 //Expected: "js-basic-login-button"
 
