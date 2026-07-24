@@ -12,14 +12,14 @@ function mergeJsBasicsConfig(defaultConfig, overrideConfig) {
     return merged;
 }
 
-let a = mergeJsBasicsConfig({ "retries": 1, "env": "dev" }, { "retries": 3 })
-console.log("Test 1 :", a);
+// let a = mergeJsBasicsConfig({ "retries": 1, "env": "dev" }, { "retries": 3 })
+// console.log("Test 1 :", a);
 
-let a1 = mergeJsBasicsConfig({ "env": "qa" }, { "timeout": 5000 })
-console.log("Test 2 :", a1);
+// let a1 = mergeJsBasicsConfig({ "env": "qa" }, { "timeout": 5000 })
+// console.log("Test 2 :", a1);
 
-let a2 = mergeJsBasicsConfig({ "env": "dev", "retries": 2 }, { "env": "stage" })
-console.log("Test 3 :", a2);
+// let a2 = mergeJsBasicsConfig({ "env": "dev", "retries": 2 }, { "env": "stage" })
+// console.log("Test 3 :", a2);
 
 /*
 Input: mergeJsBasicsConfig({"retries":1,"env":"dev"}, {"retries":3})
